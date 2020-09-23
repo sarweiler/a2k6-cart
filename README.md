@@ -14,7 +14,7 @@ So far I could only test it with one EPROM model, the National Semiconductors NM
 
 ## Using the PCB
 
-The PCB fits in a standard Atari 2600 game cartridge case ([tested with a Starmaster case](images/pcb-case.jpg)). In my tests, the EPROM *with* a socket unfortunately was just a bit too tall, so if you plan to put the PCB in a case, I think the EPROM must be soldered to the PCB.
+The PCB fits in a standard Atari 2600 game cartridge case ([tested with a Starmaster case](images/pcb-case.jpg)). In my tests, the EPROM *with* a socket unfortunately was just a bit too thick, so if you plan to put the PCB in a case, I think the EPROM must be soldered to the PCB.
 
 On the PCB, the side with the square pattern (the side with the EPROM) is the "label" side, and should face towards the back of the console when inserting it.
 
