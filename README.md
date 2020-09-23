@@ -17,7 +17,7 @@ So far I could test it with one EPROM model, the National Semiconductors NMC27C3
 
 ## Using the PCB
 
-![a2k6 pcb back](images/pcb-in-case.jpg)
+![a2k6 pcb back](images/pcb-case.jpg)
 
 The PCB fits in a standard Atari 2600 game cartridge case (tested with a Starmaster case), although, in my tests, the EPROM *with* a socket was a bit too high. So if you plan to put the PCB in a case, unfortunately the EPROM must be soldered to the PCB.
 
