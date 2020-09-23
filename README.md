@@ -1,11 +1,8 @@
 # a2k6-cart
 
-A cartridge PCB for Atari 2600
+A cartridge PCB for Atari 2600 for housing a 2732 EPROM and a 74LS04 hex inverter IC.
 
 ![a2k6 pcb back](images/pcb-back.jpg)
-
-
-This is a cartridge PCB for housing a 2732 EPROM and a 74LS04 hex inverter IC.
 
 ## Producing a PCB
 
