@@ -1,0 +1,230 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6350 2350 6150 2350
+Wire Wire Line
+	6350 2550 6350 2350
+Wire Wire Line
+	6150 3150 6350 3150
+Wire Wire Line
+	6150 3450 6150 3150
+Wire Wire Line
+	6050 2350 6050 3450
+Wire Wire Line
+	5950 2350 5950 3450
+Wire Wire Line
+	5850 2350 5850 3450
+Wire Wire Line
+	5750 2350 5750 3450
+Wire Wire Line
+	5650 2350 5650 3450
+Wire Wire Line
+	5550 2350 5550 3450
+Wire Wire Line
+	5450 2350 5450 3450
+Wire Wire Line
+	5350 2350 5350 3450
+Wire Wire Line
+	5250 2350 5250 3450
+Wire Wire Line
+	5150 2350 5150 3450
+Wire Wire Line
+	5050 2350 5050 3450
+Wire Wire Line
+	4950 2350 4950 3450
+$Comp
+L Atari:EPROM_2732 U1
+U 1 1 5F5A9964
+P 5700 1900
+F 0 "U1" V 5746 972 50  0000 R CNN
+F 1 "EPROM_2732" V 5655 972 50  0000 R CNN
+F 2 "Package_DIP:DIP-24_W15.24mm_Socket_LongPads" H 5550 2300 50  0001 C CNN
+F 3 "" H 5550 2300 50  0001 C CNN
+	1    5700 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Atari:2600_Cartridge_Port J1
+U 1 1 5F5B2BC1
+P 5650 3850
+F 0 "J1" H 4822 3804 50  0000 R CNN
+F 1 "2600_Cartridge_Port" H 4822 3895 50  0000 R CNN
+F 2 "Atari:2600_Cartridge_Port" H 5450 3800 50  0001 C CNN
+F 3 "" H 5450 3800 50  0001 C CNN
+	1    5650 3850
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS04 U2
+U 1 1 5F59DAFD
+P 6350 2850
+F 0 "U2" V 6396 2670 50  0000 R CNN
+F 1 "74LS04" V 6305 2670 50  0000 R CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6350 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6350 2850 50  0001 C CNN
+	1    6350 2850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4950 4250 3    50   Input ~ 0
+D0
+Text GLabel 5050 4250 3    50   Input ~ 0
+D1
+Text GLabel 5150 4250 3    50   Input ~ 0
+D2
+Text GLabel 5250 4250 3    50   Input ~ 0
+D3
+Text GLabel 5350 4250 3    50   Input ~ 0
+D4
+Text GLabel 5450 4250 3    50   Input ~ 0
+D5
+Text GLabel 5550 4250 3    50   Input ~ 0
+D6
+Text GLabel 5650 4250 3    50   Input ~ 0
+D7
+Text GLabel 4950 1450 1    50   Input ~ 0
+D0
+Text GLabel 5050 1450 1    50   Input ~ 0
+D1
+Text GLabel 5150 1450 1    50   Input ~ 0
+D2
+Text GLabel 5250 1450 1    50   Input ~ 0
+D3
+Text GLabel 5350 1450 1    50   Input ~ 0
+D4
+Text GLabel 5450 1450 1    50   Input ~ 0
+D5
+Text GLabel 5550 1450 1    50   Input ~ 0
+D6
+Text GLabel 5650 1450 1    50   Input ~ 0
+D7
+$Comp
+L power:GND #PWR04
+U 1 1 5F5FCFD7
+P 6150 4250
+F 0 "#PWR04" H 6150 4000 50  0001 C CNN
+F 1 "GND" H 6155 4077 50  0000 C CNN
+F 2 "" H 6150 4250 50  0001 C CNN
+F 3 "" H 6150 4250 50  0001 C CNN
+	1    6150 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4250 6250 4250
+Connection ~ 6150 4250
+$Comp
+L power:GND #PWR03
+U 1 1 5F5FDABE
+P 6500 1450
+F 0 "#PWR03" H 6500 1200 50  0001 C CNN
+F 1 "GND" H 6505 1277 50  0000 C CNN
+F 2 "" H 6500 1450 50  0001 C CNN
+F 3 "" H 6500 1450 50  0001 C CNN
+	1    6500 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5F5FE849
+P 6400 1200
+F 0 "#PWR01" H 6400 1050 50  0001 C CNN
+F 1 "+5V" H 6415 1373 50  0000 C CNN
+F 2 "" H 6400 1200 50  0001 C CNN
+F 3 "" H 6400 1200 50  0001 C CNN
+	1    6400 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1200 6400 1450
+$Comp
+L power:GND #PWR02
+U 1 1 5F5FF842
+P 6100 1450
+F 0 "#PWR02" H 6100 1200 50  0001 C CNN
+F 1 "GND" H 6105 1277 50  0000 C CNN
+F 2 "" H 6100 1450 50  0001 C CNN
+F 3 "" H 6100 1450 50  0001 C CNN
+	1    6100 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 5F5FFC9E
+P 6350 4250
+F 0 "#PWR05" H 6350 4100 50  0001 C CNN
+F 1 "+5V" H 6365 4423 50  0000 C CNN
+F 2 "" H 6350 4250 50  0001 C CNN
+F 3 "" H 6350 4250 50  0001 C CNN
+	1    6350 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F6020E8
+P 7150 4150
+F 0 "#FLG0101" H 7150 4225 50  0001 C CNN
+F 1 "PWR_FLAG" H 7150 4323 50  0000 C CNN
+F 2 "" H 7150 4150 50  0001 C CNN
+F 3 "~" H 7150 4150 50  0001 C CNN
+	1    7150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F6024BE
+P 7150 4300
+F 0 "#PWR0101" H 7150 4050 50  0001 C CNN
+F 1 "GND" H 7155 4127 50  0000 C CNN
+F 2 "" H 7150 4300 50  0001 C CNN
+F 3 "" H 7150 4300 50  0001 C CNN
+	1    7150 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4300 7150 4150
+$Comp
+L 74xx:74LS04 U2
+U 7 1 5F605F31
+P 7150 2900
+F 0 "U2" H 7380 2946 50  0000 L CNN
+F 1 "74LS04" H 7380 2855 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7150 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7150 2900 50  0001 C CNN
+	7    7150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5F608496
+P 7150 3400
+F 0 "#PWR07" H 7150 3150 50  0001 C CNN
+F 1 "GND" H 7155 3227 50  0000 C CNN
+F 2 "" H 7150 3400 50  0001 C CNN
+F 3 "" H 7150 3400 50  0001 C CNN
+	1    7150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 5F6089BE
+P 7150 2400
+F 0 "#PWR06" H 7150 2250 50  0001 C CNN
+F 1 "+5V" H 7165 2573 50  0000 C CNN
+F 2 "" H 7150 2400 50  0001 C CNN
+F 3 "" H 7150 2400 50  0001 C CNN
+	1    7150 2400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
