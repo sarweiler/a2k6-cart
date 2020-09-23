@@ -5,8 +5,8 @@ A cartridge PCB for the Atari 2600 for housing a 2732 EPROM and a 74LS04 hex inv
 ![a2k6 pcb front](images/pcb-front.jpg)
 
 More photos:
-* [Back side with 74LS04]((images/pcb-back.jpg))
-* [Inserted in an original Atari cartridge case]((images/pcb-back.jpg))
+* [Back side with 74LS04](images/pcb-back.jpg)
+* [Inserted in an original Atari cartridge case](images/pcb-case.jpg)
 
 ## Producing a PCB
 
