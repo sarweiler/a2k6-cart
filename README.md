@@ -10,7 +10,7 @@ Download the [a2k6-cart-gerbers.zip](https://github.com/sarweiler/a2k6-cart/rele
 
 ## EPROMs
 
-So far I could test it with one EPROM model, the National Semiconductors NMC27C32BQ200, because it's the only one I have on hand. Others with similar pin outs may work, too. If you've successfully tested one, feel free to message me, and I'll keep a list here.
+So far I could only test it with one EPROM model, the National Semiconductors NMC27C32BQ200, because it's the only one I have on hand. Others with similar pin outs may work, too. If you've successfully tested one, feel free to message me, and I'll keep a list here.
 
 ## Using the PCB
 
